@@ -18,7 +18,7 @@ namespace Stacks
         static void Input()
         {
             var myReg = new Regex(@"\r\n");
-            var reader = new StreamReader(@"C:\Users\suhom\Desktop\Работа Томчку 4 заданий\стеки(прога заказ)\boxes.txt").ReadToEnd();
+            var reader = new StreamReader(@"C:\Users\boxes.txt").ReadToEnd();
             var arrayStacks = myReg.Replace(reader,"!").Split('!').ToList<string>();
             arrayStacks.RemoveAt(arrayStacks.Count - 1);
             var arrayStacksInt = new List<Stack<int>>();          
@@ -37,9 +37,9 @@ namespace Stacks
         {
             var countStep = 0;
             var startMess = PrintRes(stacks, "Начальное расположение: \n\r");
-            var fileRes = new FileStream(@"C:\Users\suhom\Desktop\Работа Томчку 4 заданий\стеки(прога заказ)\moves.txt", FileMode.Create);
+            var fileRes = new FileStream(@"C:\Users\moves.txt", FileMode.Create);
             fileRes.Close();
-            var writer = new StreamWriter(@"C:\Users\suhom\Desktop\Работа Томчку 4 заданий\стеки(прога заказ)\moves.txt");
+            var writer = new StreamWriter(@"C:\Users\moves.txt");
             for (var i = 0; i < stacks.Count - 1; i++)
             {
                 var stackCount = stacks[i].Count;
