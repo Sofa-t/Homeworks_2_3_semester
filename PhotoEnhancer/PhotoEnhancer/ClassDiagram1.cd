@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PhotoEnhancer.Program" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.MainForm" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hSCAAAAAACAAABAgKCKJwAACCAgAAEAAAgAAABAAIAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.Photo" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAACAAAAEAAAAAAAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>Data\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.Convertors" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Convertors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.ParametrizedFilter&lt;TParameters&gt;" Collapsed="true">
+    <Position X="6.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\ParametrizedFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PhotoEnhancer.PixelFilter&lt;TParameters&gt;" Collapsed="true">
+    <Position X="6.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\PixelFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.LighteningFilter" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\LighteningFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.GrayscaleFilter" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\GrayscaleFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoEnhancer.LighteningParameters" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\LighteningParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PhotoEnhancer.EmptyParameters" Collapsed="true">
+    <Position X="8" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\EmptyParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PhotoEnhancer.ParameterInfo" Collapsed="true">
+    <Position X="6.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAIAAAAAQAAAAAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>Filters\ParameterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PhotoEnhancer.Pixel" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAgAAAIAAAAAAAAAAAAAAIAQABCAEAAQA=</HashCode>
+      <FileName>Data\Pixel.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="PhotoEnhancer.IFilter" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PhotoEnhancer.IParameters" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\IParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
